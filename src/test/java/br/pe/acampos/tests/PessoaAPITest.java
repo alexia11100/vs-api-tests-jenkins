@@ -84,7 +84,7 @@ public class PessoaAPITest {
                 .statusCode(HttpStatus.SC_BAD_REQUEST)
                 .body("errors", hasItem("nome: must not be blank"))
                 .body("errors", hasItem("cpf: must not be null"))
-                .body("errors", hasItem("dataNascimento: must not be null"))
+                .body("errors", hasItem("dataNascimentoooo: must not be null"))
         ;
     }
 }
