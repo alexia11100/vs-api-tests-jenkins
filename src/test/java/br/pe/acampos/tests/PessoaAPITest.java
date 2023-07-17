@@ -82,7 +82,7 @@ public class PessoaAPITest {
                 .post("/pessoa")
         .then()
                 .statusCode(HttpStatus.SC_BAD_REQUEST)
-                .body("errors", hasItem("nome: must not be blank"))
+                .body("errors", hasItem("nome: must not be blankkk"))
                 .body("errors", hasItem("cpf: must not be null"))
                 .body("errors", hasItem("dataNascimento: must not be null"))
         ;
